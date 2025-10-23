@@ -8,9 +8,10 @@ bunx web-push generate-vapid-keys
 # then it will give you keys
 ```
 
-2. Migrate DB
+2. Create and Migrate DB
 
 ```zsh
+bun run db:create
 bun run db:migrate
 ```
 
